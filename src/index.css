@@ -18,6 +18,9 @@ code {
   background-color: aquamarine;
   cursor: pointer;
   border-radius: 10px;
+  font-size: x-large;
+  font-weight:bold;
+  font-family:cursive;
 
 }
 .col{
@@ -64,4 +67,9 @@ h1{
   0% { transform: translate(2px, 0); }
   50% { transform: translate(-2px, 0); }
   100% { transform: translate(2px, 0); }
+}
+p{
+  font-size: x-large;
+  font-weight:bold;
+  font-family:cursive;
 }

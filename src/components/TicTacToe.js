@@ -10,7 +10,12 @@ function TicTacToe() {
         var status;
         if (winner) {
           status = 'Winner: ' + winner;
-        } else {
+        } 
+        else if ((array.filter(i=>i==='x').length+array.filter(i=>i==='o').length)===9){
+          status = 'Game: draw';
+
+        }
+        else {
           status = 'Next player: ' + (xturn ? 'X' : 'O');
         }
     const handleclick =(index)=>{
